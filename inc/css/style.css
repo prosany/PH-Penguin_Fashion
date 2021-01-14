@@ -1,0 +1,87 @@
+header {
+    height: 100vh;
+    background: #FFFBF0;
+}
+.penguin-logo {
+    width: 200px;
+}
+.penguin-hero-text {
+    font-size: 60px;
+}
+.penguin-hero-color-yellow {
+    color: #FABE4C;
+    font-family: 'Oswald', sans-serif;
+}
+.penguin-hero-color-dblue {
+    color: #363958;
+    font-family: 'Oswald', sans-serif;
+}
+.penguin-btn {
+    background: linear-gradient(90deg, #88A41E, #92AC2C, #A2BA43);
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+.penguin-btn:hover {
+    color: #ffffff;
+}
+.penguin-btn img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+.penguin-shadow {
+    box-shadow: 1px 1px 20px #dadada;
+    border-radius: 20px;
+}
+.img-card {
+    background: #F1F1F1;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    width: 94%;
+    height: 300px;
+    justify-content: center;
+    border-radius: 20px;
+}
+.img-card img {
+    width: 78%;
+    height: auto;
+    padding: 10px;
+
+}
+.penguin-border-r {
+    border-radius: 0px 0 20px 20px!important;
+}
+
+
+
+
+
+.penguin-color-yellow {
+    color: #FABE4C;
+    font-weight: bold;
+}
+.penguin-color-dblue {
+    color: #363958;
+}
+
+
+
+
+
+
+.penguin-img img {
+    width: 80px;
+    height: 80px;
+}
+.penguin-content {
+    margin-left: 15px;
+}
+
+.penguin-feature img {
+    width: 100%;
+}
