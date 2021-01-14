@@ -1,3 +1,4 @@
+/* For main header section */
 header {
     height: 100vh;
     background: #FFFBF0;
@@ -31,8 +32,9 @@ header {
     width: 20px;
     margin-right: 5px;
 }
+/* For main header section */
 
-
+/* For Products Sections */
 .penguin-shadow {
     box-shadow: 1px 1px 20px #dadada;
     border-radius: 20px;
@@ -56,11 +58,9 @@ header {
 .penguin-border-r {
     border-radius: 0px 0 20px 20px!important;
 }
+/* For Products Sections */
 
-
-
-
-
+/* Custom Colors */
 .penguin-color-yellow {
     color: #FABE4C;
     font-weight: bold;
@@ -68,12 +68,9 @@ header {
 .penguin-color-dblue {
     color: #363958;
 }
+/* Custom Colors */
 
-
-
-
-
-
+/* For Penguin feature */
 .penguin-img img {
     width: 80px;
     height: 80px;
@@ -81,7 +78,34 @@ header {
 .penguin-content {
     margin-left: 15px;
 }
-
 .penguin-feature img {
     width: 100%;
+}
+/* For Penguin feature */
+
+
+
+
+
+/* Custom Media Query Start */
+@media (max-width: 767px) {
+    header {
+        height: auto;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+    .section-title h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .penguin-break{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center !important;
+    }
+}
+@media (max-width: 991px) and (min-width: 767px) {
+    .penguin-hero-text {
+        font-size: 50px;
+    }
 }

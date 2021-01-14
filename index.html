@@ -37,13 +37,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#products">Product</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -67,13 +67,13 @@
             </div> <!-- Hero section end here -->
         </div> <!-- container end here -->
     </header> <!-- Header end here -->
-    <div class="container my-5">
+    <div class="container my-5" id="products">
         <!-- Woman jacket section start from here -->
         <div class="section-title">
             <h2 class="penguin-color-dblue fw-bold text-uppercase">Woman Jacket</h2>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <!-- Card No. 1 start from here -->
                 <div class="card h-100 border-0 penguin-shadow">
                     <div class="img-card">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div> <!-- Card No. 1 end here -->
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <!-- Card No. 2 start from here -->
                 <div class="card h-100 border-0 penguin-shadow">
                     <div class="img-card">
@@ -117,7 +117,7 @@
                     </div>
                 </div>
             </div> <!-- Card No. 2 end here -->
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <!-- Card No. 3 start from here -->
                 <div class="card h-100 border-0 penguin-shadow">
                     <div class="img-card">
@@ -147,7 +147,7 @@
             <h2 class="penguin-color-dblue fw-bold text-uppercase">Man Jacket</h2>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <!-- Card No. 1 start from here -->
                 <div class="card h-100 border-0 penguin-shadow">
                     <div class="img-card">
@@ -169,7 +169,7 @@
                     </div>
                 </div>
             </div> <!-- Card No. 1 end here -->
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <!-- Card No. 2 start from here -->
                 <div class="card h-100 border-0 penguin-shadow">
                     <div class="img-card">
@@ -191,7 +191,7 @@
                     </div>
                 </div>
             </div> <!-- Card No. 2 end here -->
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <!-- Card No. 3 start from here -->
                 <div class="card h-100 border-0 penguin-shadow">
                     <div class="img-card">
@@ -215,11 +215,12 @@
             </div> <!-- Card No. 3 end here -->
         </div>
     </div> <!-- Man jacket section end here -->
-    <div class="container my-5">
+    <div class="container my-5" id="about"> <!-- Penguin feature start from here -->
         <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-12 mt-1">
-                <div class="d-flex p-3 mt-3 penguin-shadow align-items-center">
-                    <div class="align-self-start">
+            <div class="col-lg-5 col-md-12 col-sm-12 mt-1 order-2 order-lg-1 order-md-1">
+                <!-- Left section start from here -->
+                <div class="d-flex p-3 mt-3 penguin-shadow align-items-center penguin-break">
+                    <div class="align-self-center">
                         <div class="penguin-img">
                             <img src="images/icons/shop.png" alt="service">
                         </div>
@@ -231,8 +232,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex p-3 mt-3 penguin-shadow">
-                    <div class="align-self-start">
+                <div class="d-flex p-3 mt-3 penguin-shadow penguin-break">
+                    <div class="align-self-center">
                         <div class="penguin-img">
                             <img src="images/icons/sell.png" alt="service">
                         </div>
@@ -244,8 +245,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex p-3 mt-3 penguin-shadow">
-                    <div class="align-self-start">
+                <div class="d-flex p-3 mt-3 penguin-shadow penguin-break">
+                    <div class="align-self-center">
                         <div class="penguin-img">
                             <img src="images/icons/support.png" alt="service">
                         </div>
@@ -257,13 +258,43 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 mt-1">
+            </div> <!-- Left section end here -->
+            <div class="col-lg-7 col-md-12 col-sm-12 mt-5 order-1 order-lg-2 order-md-2">
+                <!-- right section start from here -->
                 <div class="penguin-feature">
                     <img src="images/poster/shop-preview.png" alt="">
                 </div>
+            </div> <!-- right section end here -->
+        </div>
+    </div> <!-- Penguin feature end here -->
+    <div class="container" id="contact"> <!-- Contact form start from here -->
+        <div class="section-title">
+            <h2 class="penguin-color-dblue fw-bold text-uppercase text-center">Contact Us</h2>
+        </div>
+        <div class="col-md-6 mx-auto">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jason Warne">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jason@dummy.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Subject">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn penguin-btn">Send Message</button>
             </div>
         </div>
+    </div> <!-- Contact form end here -->
+    <div class="container mt-5 mb-2">
+        <p class="d-flex justify-content-center">Copyrights © 2021 Penguin Fashion.</p>
     </div>
     <!-- Bootstrap JS File -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
