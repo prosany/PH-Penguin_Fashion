@@ -103,6 +103,9 @@ header {
         text-align: center;
         justify-content: center !important;
     }
+    .penguin-hero-text {
+        font-size: 45px;
+    }
 }
 @media (max-width: 991px) and (min-width: 767px) {
     .penguin-hero-text {
